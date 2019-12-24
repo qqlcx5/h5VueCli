@@ -1,0 +1,168 @@
+@import 'color.scss';
+
+html *{
+  margin: 0;
+  padding: 0;
+  // load more
+  .mint-loadmore-bottom,
+  .mint-loadmore-top{
+    color: #999;
+  }
+}
+
+img {
+  border: none;
+}
+
+input {
+  outline: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  color: #6b6c6e;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  -webkit-transition: color .2s linear;
+  transition: color .2s linear;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+i, em {
+  font-weight: normal;
+  font-style: normal;
+}
+
+input,
+select,
+button {
+  border: none;
+  outline: none;
+}
+
+select {
+  -webkit-appearance: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.box-shadow {
+  box-shadow: 0 0 10px #ddd;
+  background-color: #fff;
+}
+
+.bor-radius {
+  border-radius: .08rem;
+}
+
+.pt { padding-top: 0.2rem !important; }
+.pt0 { padding-top: 0 !important; }
+.pb { padding-bottom: 0.2rem !important; }
+.pbx { padding-bottom: 0.15rem !important; }
+.pl { padding-left: 0.2rem !important; }
+.pl0 { padding-left: 0 !important; }
+.pr { padding-right: 0.2rem !important; }
+.pl0 { padding-right: 0 !important; }
+.mt { margin-top: 0.25rem !important; }
+.mb { margin-bottom: 0.25rem !important; }
+.ml { margin-left: 0.25rem !important; }
+.mr { margin-right: 0.25rem !important; }
+
+.fontx {
+  font-size: 0.25rem !important;
+}
+
+.fontz {
+  font-size: 0.3rem !important;
+}
+
+.fontd {
+  font-size: 0.35rem !important;
+}
+
+.mtb {
+  margin: .2rem 0 !important;
+}
+
+// 订单未读小圆点
+.point{
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: $color-red;
+  margin: 0px .08rem;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+p{
+  // padding: .05rem 0px !important;
+  line-height: .36rem;
+}
+
+input::-webkit-input-placeholder{
+  color: $color-999 !important;
+}
+// 关闭外层弹窗背景色
+.mtPopup {
+  background: transparent !important;
+}

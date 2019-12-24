@@ -1,0 +1,35 @@
+@mixin multi-ellipsis($lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+// 调用 @include multi-ellipsis(2);
+@mixin btn($w,$h,$bg,$c,$fs){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg;
+  width: $w;
+  height: $h;
+  color: $c;
+  font-size: $fs;
+  border-radius: 10px;
+}
+@mixin flexCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+//两栏布局
+@mixin flexbothSides{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

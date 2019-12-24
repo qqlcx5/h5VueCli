@@ -1,0 +1,32 @@
+// Animation
+$animation-duration-base: .3s;
+$animation-duration-fast: .2s;
+
+@keyframes van-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes van-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+.van-fade {
+  &-enter-active {
+    animation: $animation-duration-base van-fade-in;
+  }
+
+  &-leave-active {
+    animation: $animation-duration-base van-fade-out;
+  }
+}

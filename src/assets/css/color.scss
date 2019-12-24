@@ -1,0 +1,92 @@
+$color-this: rgba(74, 144, 226, 1); // 主色调 - 蓝
+$color-blue: rgba(74, 144, 226, 1); // 主色调 - 蓝
+$color-yellow: rgba(245,166,35,1); // 主色调 - 橘色
+$color-red: rgba(234,87,60,1); // 主色调 & 指数型减少色调 - 红
+$color-green: #30A384; // 主色调 - 绿
+$color-add: #32AF8D; // 指数型增加色调
+$color-999: #999; // 灰色字体主色调
+$color-333: #333; // 字体主色调
+$color-f3f3f3: #f3f3f3; // 列表下边框线色调
+$color-input: #E8E8E8; // input边框色调
+
+// 其他颜色
+$color-000: #000;
+$color-666: #666;
+$color-888: #888;
+$color-white: #fff;
+$color-solid: #E7E7E7;
+$color-fafafa: #fafafa;
+$color-nav: rgba(33,42,63,1);
+$color-navWhite: rgba(255,247,247,1);
+$color-sell: rgba(223,84,59,0.1);
+$color-buy: rgba(0,189,154,0.1);
+
+// 按钮点击效果
+$active-white: rgba(96, 115, 154, .09);
+$active-blue: rgba(55, 124, 205, 1);
+$active-green: rgba(27, 175, 107, 1);
+$active-red: rgba(222, 70, 42, 1);
+
+.color-blue {
+  color: $color-blue !important;
+}
+
+.color-yellow {
+  color: $color-yellow !important;
+}
+
+.color-red {
+  color: $color-red !important;
+}
+
+.color-green{
+  color: $color-green !important;
+}
+
+.color-add{
+  color: $color-add !important;
+}
+
+.color-000{
+  color: $color-000 !important;
+}
+
+.color-333{
+  color: $color-333 !important;
+}
+
+.color-666{
+  color: $color-666 !important;
+}
+
+.color-999{
+  color: $color-999 !important;
+}
+
+.color-this{
+  color: $color-this !important;
+}
+
+.bgcolor-blue {
+  background-color: $color-blue !important;
+}
+
+.bgcolor-yellow { 
+  background-color: $color-yellow !important;
+}
+
+.bgcolor-red {
+  background-color: $color-red !important;
+}
+
+.bgcolor-green{
+  background-color: $color-green !important;
+}
+
+.bgcolor-this{
+  background-color: $color-this !important;
+}
+
+.bgcolor-f3f3f3{
+  background-color: $color-f3f3f3 !important;
+}
