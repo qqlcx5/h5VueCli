@@ -29,8 +29,6 @@ export default {
       handler(newVal) {
         if (newVal > 9) {
           this.shotjudge();
-        } else {
-          console.log(1);
         }
       },
       immediate: false

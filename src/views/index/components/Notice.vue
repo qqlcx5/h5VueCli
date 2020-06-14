@@ -2,7 +2,7 @@
   <div class="noticeDiv">
       <div class="notice">
         <!-- <img class="noticeImg" src="@/assets/img/activity/jubilee/notice.png" alt=""> -->
-         <svg-icon :icon="'diya'" :size="30" />
+         <svg-icon icon="icon-gonggao" :size="30" />
         <div class="noticeText" id="notice">
             <div class="notices" v-for="(item, index) in noticeList" :key="index">
               <div class="noti-item">

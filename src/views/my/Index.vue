@@ -48,28 +48,28 @@
       </div>
       <div class="listDiv">
         <div class="item" @click="handleToEmail">
-          <div class="name"> <svg-icon :icon="'tishi'" :size="46" :svgClass="'itemIcon'" /> 邮箱提醒</div>
-          <div class="arrow">otc******@qq.com <svg-icon :icon="'arrow-right'" :size="24" :svgClass="'arrowIcon'" /> </div>
+          <div class="name"> <svg-icon icon="tishi" :size="46" :svgClass="'itemIcon'" /> 邮箱提醒</div>
+          <div class="arrow">otc******@qq.com <svg-icon icon="icon-arrow-right" :size="24" :svgClass="'arrowIcon'" /> </div>
         </div>
         <div class="item">
-          <div class="name"> <svg-icon :icon="'language'" :size="48" :svgClass="'itemIcon'" /> 切换语言</div>
-          <div class="arrow">简体中文 <svg-icon :icon="'arrow-right'" :size="24" :svgClass="'arrowIcon'" /> </div>
+          <div class="name"> <svg-icon :icon="'icon-language'" :size="48" :svgClass="'itemIcon'" /> 切换语言</div>
+          <div class="arrow">简体中文 <svg-icon icon="icon-arrow-right" :size="24" :svgClass="'arrowIcon'" /> </div>
         </div>
         <div class="item">
-          <div class="name"> <svg-icon :icon="'xinxi'" :size="48" :svgClass="'itemIcon'" /> 关于我们</div>
-          <div class="arrow"><svg-icon :icon="'arrow-right'" :size="24" :svgClass="'arrowIcon'" /> </div>
+          <div class="name"> <svg-icon :icon="'icon-acount'" :size="48" :svgClass="'itemIcon'" /> 关于我们</div>
+          <div class="arrow"><svg-icon icon="icon-arrow-right" :size="24" :svgClass="'arrowIcon'" /> </div>
         </div>
         <div class="item">
-          <div class="name"> <svg-icon :icon="'tijiaogongdan'" :size="44" :svgClass="'itemIcon'" /> 提交工单</div>
-          <div class="arrow"><svg-icon :icon="'arrow-right'" :size="24" :svgClass="'arrowIcon'" /> </div>
+          <div class="name"> <svg-icon :icon="'icon-tijiaogongdan'" :size="44" :svgClass="'itemIcon'" /> 提交工单</div>
+          <div class="arrow"><svg-icon icon="icon-arrow-right" :size="24" :svgClass="'arrowIcon'" /> </div>
         </div>
         <div class="item">
-          <div class="name"> <svg-icon :icon="'diya'" :size="50" :svgClass="'itemIcon'" /> 抵押账户</div>
-          <div class="arrow"><svg-icon :icon="'arrow-right'" :size="24" :svgClass="'arrowIcon'" /> </div>
+          <div class="name"> <svg-icon icon="icon-diya" :size="50" :svgClass="'itemIcon'" /> 抵押账户</div>
+          <div class="arrow"><svg-icon icon="icon-arrow-right" :size="24" :svgClass="'arrowIcon'" /> </div>
         </div>
         <div class="item">
-          <div class="name"> <svg-icon :icon="'kefu'" :size="48" :svgClass="'itemIcon'" /> 帮助中心</div>
-          <div class="arrow"><svg-icon :icon="'arrow-right'" :size="24" :svgClass="'arrowIcon'" /> </div>
+          <div class="name"> <svg-icon :icon="'icon-xinshoujiaocheng'" :size="48" :svgClass="'itemIcon'" /> 帮助中心</div>
+          <div class="arrow"><svg-icon icon="icon-arrow-right" :size="24" :svgClass="'arrowIcon'" /> </div>
         </div>
       </div>
     </div>

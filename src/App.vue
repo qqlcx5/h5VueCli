@@ -80,8 +80,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import '~style/animation.scss';
-
 html,
 body,
 html,
@@ -101,9 +99,10 @@ body,
   min-height: 100vh;
 }
 .routerView {
-  overflow: scroll;
-  overflow: hidden !important;
-  overflow-y: auto !important;
+  // 部分ios手机弹窗层级出现问题
+  // overflow: scroll;
+  // overflow: hidden !important;
+  // overflow-y: auto !important;
   -webkit-overflow-scrolling: touch;
   box-sizing: border-box;
   background: #f3f3f3;

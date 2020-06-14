@@ -10,7 +10,7 @@
         </div>
       </div>
       <!-- bannerList 展示 -->
-      <template v-if="bannerList.length">
+      <template v-if="bannerList && bannerList.length">
         <div class="swiper-slide" @click="handleToHref(item.eventUrl)" v-for="(item, $index) in bannerList" :key="$index">
           <div class="bannerActivityImg">
             <img :src="item.imageUrl" width="100%" />
